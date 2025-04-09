@@ -1,8 +1,8 @@
 import React from 'react'
 import profile1 from "../assets/profile1.png"
-import Profile1_bg from "../assets/Profile1_bg.png"
+import Profile1_bg from "../assets/profile1_bg.png"
 import profile3 from "../assets/profile3.png"
-import Profile3_bg from "../assets/Profile3_bg.png"
+import Profile3_bg from "../assets/profile3_bg.png"
 import Image39 from "../assets/Image 39.png"
 import Image40 from "../assets/Image 40.png"
 import Image41 from "../assets/Image41.png"
@@ -11,74 +11,6 @@ import { Heart, MessageCircle, Share2 } from 'lucide-react';
 
 const Mainfeed = ({ avatar, name, handle, content, image, likes, comments, shares }) => {
   return (
-    // <div className="absolute top-[150px] left-[490px] w-[620px] h-[600px] bg-white rounded-[10px] opacity-100">
-    //   {/* Header */}
-    //   <div className="flex items-center p-4 space-x-4">
-    //     <img
-    //       src={profile1}
-    //       alt="profile"
-    //       className="w-10 h-10 rounded-lg object-cover"
-    //     />
-    //     <div>
-    //       <h2 className="font-semibold text-gray-800">Lara Leones</h2>
-    //       <p className="text-gray-500 text-sm">@thewallart</p>
-    //     </div>
-    //     <div className="ml-auto text-gray-500 cursor-pointer">
-    //       <svg
-    //         xmlns="http://www.w3.org/2000/svg"
-    //         className="h-5 w-5"
-    //         fill="none"
-    //         viewBox="0 0 24 24"
-    //         stroke="currentColor"
-    //       >
-    //         <path
-    //           strokeLinecap="round"
-    //           strokeLinejoin="round"
-    //           strokeWidth={2}
-    //           d="M6 12h.01M12 12h.01M18 12h.01"
-    //         />
-    //       </svg>
-    //     </div>
-    //   </div>
-
-    //   {/* Content */}
-    //   <div className="px-4 pb-4">
-    //     <p className="text-gray-700 text-sm">
-    //       It is a long established fact that a reader will be distracted by the readable content of a
-    //       page when looking at its layout.{' '}
-    //       <span className="text-blue-500 font-medium cursor-pointer">Read More</span>
-    //     </p>
-    //   </div>
-
-    //   {/* Image */}
-    //   <div className="relative">
-    //     <img
-    //       src={Profile1_bg}
-    //       alt="Wall Art"
-    //       className="w-full object-cover"
-    //       />
-    //     <button className="absolute top-2 right-2 bg-white rounded-full p-1 shadow-md">
-    //       <Heart className="w-5 h-5 text-gray-700" />
-    //     </button>
-    //   </div>
-
-    //   {/* Footer */}
-    //   <div className="flex justify-around items-center text-gray-700 text-sm py-4 border-t">
-    //     <div className="flex items-center space-x-1">
-    //       <Heart className="w-4 h-4" />
-    //       <span>9.8k</span>
-    //     </div>
-    //     <div className="flex items-center space-x-1">
-    //       <MessageCircle className="w-4 h-4" />
-    //       <span>8.6k</span>
-    //     </div>
-    //     <div className="flex items-center space-x-1">
-    //       <Share2 className="w-4 h-4" />
-    //       <span>7.2k</span>
-    //     </div>
-    //   </div>
-    // </div>
-
     <div className="w-[620px] h-[600px] ml-[100px] bg-white rounded-xl shadow-md overflow-hidden">
       {/* Header */}
       <div className="flex items-center p-4 space-x-4">
